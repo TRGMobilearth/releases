@@ -20,6 +20,15 @@
     </style>
 </head>
 <body class="bg-gray-100 font-sans">
+    <!-- Password Modal -->
+    <div id="passwordModal" class="fixed inset-0 z-50 flex items-center justify-center modal-backdrop">
+        <div class="bg-white p-8 rounded-lg shadow-xl max-w-md w-full mx-4">
+            <h3 class="text-xl font-bold text-primary mb-4">Enter Password</h3>
+            <input type="password" id="passwordInput" class="w-full p-2 border rounded mb-4" placeholder="Enter password">
+            <button onclick="checkPassword()" class="bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark w-full">Submit</button>
+            <p id="passwordError" class="text-red-600 mt-2 text-sm hidden">Incorrect password. Please try again.</p>
+        </div>
+    </div>
 
     <!-- Navigation Bar -->
     <nav class="bg-primary shadow-md">
@@ -89,30 +98,9 @@
             <ul id='ios-list' class='space-y-2'><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBanking-9-1-219-20250219211823.ipa <b>(9.1.219)</b> <i>(2025-02-19 21:18:23)</i></span><div class='space-x-2'><a href='itms-services://?action=download-manifest&url=https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9-1-219-20250219211823.plist' class='bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors'>Install</a><a href='https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9-1-219-20250219211823.ipa' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBanking-9-1-219-20250219182744.ipa <b>(9.1.219)</b> <i>(2025-02-19 18:27:44)</i></span><div class='space-x-2'><a href='itms-services://?action=download-manifest&url=https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9-1-219-20250219182744.plist' class='bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors'>Install</a><a href='https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9-1-219-20250219182744.ipa' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBanking-9-1-213-20250214005149.ipa <b>(9.1.213)</b> <i>(2025-02-14 00:51:49)</i></span><div class='space-x-2'><a href='itms-services://?action=download-manifest&url=https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9-1-213-20250214005149.plist' class='bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors'>Install</a><a href='https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9-1-213-20250214005149.ipa' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBanking-9-1-212-20250212210236.ipa <b>(9.1.212)</b> <i>(2025-02-12 21:02:36)</i></span><div class='space-x-2'><a href='itms-services://?action=download-manifest&url=https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9-1-212-20250212210236.plist' class='bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors'>Install</a><a href='https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9-1-212-20250212210236.ipa' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBanking-9-1-211-20250211220619.ipa <b>(9.1.211)</b> <i>(2025-02-11 22:06:19)</i></span><div class='space-x-2'><a href='itms-services://?action=download-manifest&url=https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9-1-211-20250211220619.plist' class='bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors'>Install</a><a href='https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9-1-211-20250211220619.ipa' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBanking-9-1-210-20250211195319.ipa <b>(9.1.210)</b> <i>(2025-02-11 19:53:19)</i></span><div class='space-x-2'><a href='itms-services://?action=download-manifest&url=https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9-1-210-20250211195319.plist' class='bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors'>Install</a><a href='https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9-1-210-20250211195319.ipa' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li></ul>            
         </div>
     </div>
+
+     <script>
+!function(){let e=["value","preventDefault","click","flex","style","display","passwordModal","passwordInput","passwordError","hidden","authenticated","setItem","href","includes","itms-services","download","none","classList","remove","addEventListener","keypress","key","Enter"],t=["bW9iaWxlYXJ0aA==","6d6f62696c6561727468","109,111,98,105,108,101,97,114,116,104"],_=function(e){try{var _,n,a;return e===(_=t[0],atob(_))||e===(n=t[1]).match(/.{2}/g).map(e=>String.fromCharCode(parseInt(e,16))).join("")||e===(a=t[2]).split(",").map(e=>String.fromCharCode(parseInt(e))).join("")}catch(r){return!1}},n=!1;window._cp=function(){let t=document[e[7]].value;_(t)?(n=!0,document.getElementById(e[6])[e[4]][e[5]]=e[16],sessionStorage[e[11]](e[10],"1")):document.getElementById(e[8]).classList.remove(e[9])},"1"===sessionStorage.getItem(e[10])&&(n=!0,document.getElementById(e[6])[e[4]][e[5]]=e[16]),document[e[19]](e[2],function(t){"A"===t.target.tagName&&(t.target.getAttribute(e[15])||t.target[e[12]][e[13]](e[14]))&&!n&&(t[e[1]](),document.getElementById(e[6])[e[4]][e[5]]=e[3])}),document.getElementById(e[7])[e[19]](e[20],function(t){t[e[21]]===e[22]&&window._cp()})}();
+    </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

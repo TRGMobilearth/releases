@@ -1,0 +1,77 @@
+{
+  "entity": [
+    {
+      "name": "dev",
+      "color": "#013579",
+      "tagTypes": [
+        {
+          "name": "master",
+          "projectType": "UWP",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "masterdroidbank",
+          "projectType": "AOS",
+          "fileRegexp": "^com.mobilearth.mobibanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "master_ionic_android",
+          "projectType": "AOS",
+          "fileRegexp": "^Master-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "masteriosbank",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "master_ionic_ios",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        }
+      ]
+    },
+    {
+      "name": "ecab",
+      "tagTypes": [
+        {
+          "name": "ecab_uwp",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
+          "projectType": "UWP"
+        },
+        {
+          "name": "ecab_aos",
+          "projectType": "AOS",
+          "fileRegexp": "^Master-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "ecab_ios",
+          "description": "ECAB MobiBanking QA Ionic iOS Builds",
+          "projectType": "TESTFLIGHT",
+          "testFlightUrl": "https://testflight.apple.com/join/sg9ufOtt"
+        }
+      ]
+    },
+    {
+      "name": "omni",
+      "tagTypes": [
+        {
+          "name": "omni",
+          "projectType": "UWP",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "omni_aos",
+          "projectType": "AOS",
+          "fileRegexp": "^Master-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "omni_ios",
+          "description": "Omni MobiBanking QA Ionic iOS Builds",
+          "projectType": "TESTFLIGHT",
+          "testFlightUrl": "https://testflight.apple.com/join/XXXXXXXX"
+        }
+      ]
+    }
+  ]
+}

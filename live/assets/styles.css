@@ -1,0 +1,27 @@
+.dev {
+    .bg-primary {
+      background-color: #013579;
+    }
+    .text-primary {
+      color: #013579;
+    }
+  }
+  
+  .ecab {
+    .bg-primary {
+      background-color: #a16e11;
+    }
+    .text-primary {
+      color: #a16e11;
+    }
+  }
+  
+  .omni {
+    .bg-primary {
+      background-color: #1797d6;
+    }
+    .text-primary {
+      color: #1797d6;
+    }
+  }
+  

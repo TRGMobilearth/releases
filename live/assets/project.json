@@ -25,7 +25,7 @@
         },
         {
           "name": "master_ionic_ios",
-          "projectType": "IOS",
+          "projectType": "TESTFLIGHT",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         }
       ]
@@ -34,20 +34,26 @@
       "name": "ecab",
       "tagTypes": [
         {
-          "name": "ecab_uwp",
-          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
-          "projectType": "UWP"
-        },
-        {
-          "name": "ecab_aos",
+          "name": "ecabdroidbank-qa",
           "projectType": "AOS",
-          "fileRegexp": "^Master-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "ecab_ios",
-          "description": "ECAB MobiBanking QA Ionic iOS Builds",
-          "projectType": "TESTFLIGHT",
-          "testFlightUrl": "https://testflight.apple.com/join/sg9ufOtt"
+          "name": "ecabdroidsbank-prod",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "ecabiosbank-qa",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
+          "externalLink": "https://testflight.apple.com/join/sg9ufOtt"
+        },
+        {
+          "name": "ecabiosbank-prod",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
+          "externalLink": "https://testflight.apple.com/join/R8mo4xvF"
         }
       ]
     },
@@ -60,15 +66,14 @@
           "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "omni_aos",
+          "name": "omni_aos_uat",
           "projectType": "AOS",
-          "fileRegexp": "^Master-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "omni_ios",
-          "description": "Omni MobiBanking QA Ionic iOS Builds",
-          "projectType": "TESTFLIGHT",
-          "testFlightUrl": "https://testflight.apple.com/join/XXXXXXXX"
+          "name": "omni_ios_uat",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         }
       ]
     }

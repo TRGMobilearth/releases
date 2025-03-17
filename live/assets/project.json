@@ -2,7 +2,6 @@
   "entity": [
     {
       "name": "dev",
-      "color": "#013579",
       "tagTypes": [
         {
           "name": "master",
@@ -17,7 +16,7 @@
         {
           "name": "master_ionic_android",
           "projectType": "AOS",
-          "fileRegexp": "^Master-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
           "name": "masteriosbank",

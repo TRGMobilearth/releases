@@ -25,7 +25,7 @@
         },
         {
           "name": "master_ionic_ios",
-          "projectType": "TESTFLIGHT",
+          "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         }
       ]

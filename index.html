@@ -3,155 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TRG Mobilearth Releases</title>
-    <!-- Tailwind CSS via CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        /* Custom primary color */
-        .bg-primary {
-            background-color: #013579;
-        }
-        .text-primary {
-            color: #013579;
-        }
-        .hover\:bg-primary-dark:hover {
-            background-color: #012456;
-        }
-    </style>
+    <meta http-equiv="refresh" content="0; url=/releases/live">
+    <title>Redirecting...</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script>
+        // JavaScript redirect as a fallback
+        setTimeout(function(){
+            window.location.href = "/releases/live";
+        }, 0);
+    </script>
 </head>
-<body class="bg-gray-100 font-sans">
-    <!-- Navigation Bar -->
-    <nav class="bg-primary shadow-md">
-        <div class="container mx-auto px-4">
-            <div class="flex justify-between items-center py-4">
-                <a href="#" class="text-white text-xl font-bold">TRG Mobilearth</a>
-                <div class="hidden md:flex space-x-6">
-                    <a href="#windows" class="text-white hover:text-gray-200">Windows</a>
-                    <a href="#android" class="text-white hover:text-gray-200">Android</a>
-                    <a href="#ios" class="text-white hover:text-gray-200">iOS</a>
-                </div>
-                <button class="md:hidden text-white focus:outline-none">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-                    </svg>
-                </button>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Main Content -->
-    <div class="container mx-auto px-4 py-8">
-        <h1 class="text-4xl font-bold text-center text-primary mb-4">Welcome to Mobilearth App Releases</h1>
-        <p class="text-center text-gray-600 mb-8">Download the latest versions of the app for different platforms.</p>
-
-        <!-- List Item Example -->
-        <!-- <li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBranch_9.1.127.0_x64.msix <i>(2025-01-30 00:58:25)</i></span><a href='https://github.com/TRGMobilearth/releases/releases/download/master36/MobiBranch_9.1.127.0_x64.msix' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></li> -->
-        
-        <!-- Windows MSIX Packages Section -->
-        <div id="windows" class="bg-white rounded-lg shadow-md p-6 mb-8">
-            <h2 class="text-2xl font-semibold text-primary mb-4">MobiBranch MAUI Windows Packages</h2>
-            <ul id='windows-list' class='space-y-2'>
-<li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBranch_9.2.310.0_x64.msix</span><a href='https://github.com/TRGMobilearth/releases/releases/download/master/MobiBranch_9.2.310.0_x64.msix' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></li>
-<li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBranch_9.1.303.0_x64.msix</span><a href='https://github.com/TRGMobilearth/releases/releases/download/master/MobiBranch_9.1.303.0_x64.msix' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></li>
-<li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBranch_9.1.227.0_x64.msix</span><a href='https://github.com/TRGMobilearth/releases/releases/download/master/MobiBranch_9.1.227.0_x64.msix' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></li>
-<li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBranch_9.1.226.0_x64.msix</span><a href='https://github.com/TRGMobilearth/releases/releases/download/master/MobiBranch_9.1.226.0_x64.msix' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></li>
-<li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBranch_9.1.225.0_x64.msix</span><a href='https://github.com/TRGMobilearth/releases/releases/download/master/MobiBranch_9.1.225.0_x64.msix' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></li>
-<li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBranch_9.1.220.0_x64.msix</span><a href='https://github.com/TRGMobilearth/releases/releases/download/master/MobiBranch_9.1.220.0_x64.msix' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></li>
-</ul>
-        </div>
-
-        <!-- Android Builds Section -->
-        <div id="android" class="bg-white rounded-lg shadow-md p-6 mb-8">
-            <h2 class="text-2xl font-semibold text-primary mb-4">MobiBanking MAUI Android Builds</h2>
-            <ul id='android-list' class='space-y-2'><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>com.mobilearth.mobibanking-9.2.311-688_20250311183711.apk <b>9.2.311(688)</b> <i>(2025-03-11 18:37:11)</i></span><div class='space-x-2'><a href='https://github.com/TRGMobilearth/releases/releases/download/masterdroidbank/com.mobilearth.mobibanking-9.2.311-688_20250311183711.apk' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>com.mobilearth.mobibanking-9.2.310-687_20250310193751.apk <b>9.2.310(687)</b> <i>(2025-03-10 19:37:51)</i></span><div class='space-x-2'><a href='https://github.com/TRGMobilearth/releases/releases/download/masterdroidbank/com.mobilearth.mobibanking-9.2.310-687_20250310193751.apk' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>com.mobilearth.mobibanking-9.1.304-686_20250307193504.apk <b>9.1.304(686)</b> <i>(2025-03-07 19:35:04)</i></span><div class='space-x-2'><a href='https://github.com/TRGMobilearth/releases/releases/download/masterdroidbank/com.mobilearth.mobibanking-9.1.304-686_20250307193504.apk' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>com.mobilearth.mobibanking-9.1.303-685_20250306012651.apk <b>9.1.303(685)</b> <i>(2025-03-06 01:26:51)</i></span><div class='space-x-2'><a href='https://github.com/TRGMobilearth/releases/releases/download/masterdroidbank/com.mobilearth.mobibanking-9.1.303-685_20250306012651.apk' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>com.mobilearth.mobibanking-9.1.303-684_20250304010833.apk <b>9.1.303(684)</b> <i>(2025-03-04 01:08:33)</i></span><div class='space-x-2'><a href='https://github.com/TRGMobilearth/releases/releases/download/masterdroidbank/com.mobilearth.mobibanking-9.1.303-684_20250304010833.apk' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>com.mobilearth.mobibanking-9.1.225-683_20250225213958.apk <b>9.1.225(683)</b> <i>(2025-02-25 21:39:58)</i></span><div class='space-x-2'><a href='https://github.com/TRGMobilearth/releases/releases/download/masterdroidbank/com.mobilearth.mobibanking-9.1.225-683_20250225213958.apk' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li></ul>            
-        </div>
-
-        <!-- Android Ionic Builds Section -->
-        <div id="android" class="bg-white rounded-lg shadow-md p-6 mb-8">
-            <h2 class="text-2xl font-semibold text-primary mb-4">MobiBanking Ionic Android Builds</h2>
-            <ul id='ionic-android-list' class='space-y-2'><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>Master-7.5.313-17541_20250313193420.apk <b>7.5.313(17541)</b> <i>(2025-03-13 19:34:20)</i></span><div class='space-x-2'><a href='https://github.com/TRGMobilearth/releases/releases/download/master_ionic_android/Master-7.5.313-17541_20250313193420.apk' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>APK</a><a href='' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Bundle</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>Master-7.5.313-17539_20250313190249.apk <b>7.5.313(17539)</b> <i>(2025-03-13 19:02:49)</i></span><div class='space-x-2'><a href='https://github.com/TRGMobilearth/releases/releases/download/master_ionic_android/Master-7.5.313-17539_20250313190249.apk' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>APK</a><a href='' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Bundle</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>Master-7.5.313-17538_20250313183249.apk <b>7.5.313(17538)</b> <i>(2025-03-13 18:32:49)</i></span><div class='space-x-2'><a href='https://github.com/TRGMobilearth/releases/releases/download/master_ionic_android/Master-7.5.313-17538_20250313183249.apk' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>APK</a><a href='' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Bundle</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>Master-7.1.36-17523_20250312025023.apk <b>7.1.36(17523)</b> <i>(2025-03-12 02:50:23)</i></span><div class='space-x-2'><a href='https://github.com/TRGMobilearth/releases/releases/download/master_ionic_android/Master-7.1.36-17523_20250312025023.apk' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>APK</a><a href='' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Bundle</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>Master-7.1.35-17521_.apk <b>(17523)</b> <i>()</i></span><div class='space-x-2'><a href='https://github.com/TRGMobilearth/releases/releases/download/master_ionic_android/Master-7.1.35-17521_.apk' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>APK</a><a href='' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Bundle</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>Master-7.0.1018-651_20250311202744.apk <b>7.0.1018(651)</b> <i>(2025-03-11 20:27:44)</i></span><div class='space-x-2'><a href='https://github.com/TRGMobilearth/releases/releases/download/master_ionic_android/Master-7.0.1018-651_20250311202744.apk' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>APK</a><a href='' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Bundle</a></div></li></ul>            
-        </div>
-
-        <!-- iOS Builds Section -->
-        <div id="ios" class="bg-white rounded-lg shadow-md p-6 mb-8">
-            <h2 class="text-2xl font-semibold text-primary mb-4">MobiBanking MAUI iOS Builds</h2>
-
-            <!-- Added Alert/Notice -->
-            <div class="bg-blue-50 border-l-4 border-blue-400 p-4 mb-4">
-                <div class="flex">
-                    <div class="flex-shrink-0">
-                        <svg class="h-5 w-5 text-blue-400" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
-                        </svg>
-                    </div>
-                    <div class="ml-3">
-                        <p class="text-sm text-blue-700">
-                            <strong>Important Installation Note:</strong> The "Install" button will only work if your device's UDID is included in the Ad-Hoc provisioning profile. There will be no immediate confirmation of installation - please check your device's home screen (springboard) to verify if the installation was successful.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <ul id='ios-list' class='space-y-2'><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBanking-9.2.311-688_20250311184513.ipa <b>9.2.311(688)</b> <i>(2025-03-11 18:45:13)</i></span><div class='space-x-2'><a href='itms-services://?action=download-manifest&url=https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9.2.311-688_20250311184513.plist' class='bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors'>Install</a><a href='https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9.2.311-688_20250311184513.ipa' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBanking-9.2.310-687_20250310194003.ipa <b>9.2.310(687)</b> <i>(2025-03-10 19:40:03)</i></span><div class='space-x-2'><a href='itms-services://?action=download-manifest&url=https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9.2.310-687_20250310194003.plist' class='bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors'>Install</a><a href='https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9.2.310-687_20250310194003.ipa' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBanking-9.1.304-686_20250307193941.ipa <b>9.1.304(686)</b> <i>(2025-03-07 19:39:41)</i></span><div class='space-x-2'><a href='itms-services://?action=download-manifest&url=https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9.1.304-686_20250307193941.plist' class='bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors'>Install</a><a href='https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9.1.304-686_20250307193941.ipa' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBanking-9.1.303-685_20250306012526.ipa <b>9.1.303(685)</b> <i>(2025-03-06 01:25:26)</i></span><div class='space-x-2'><a href='itms-services://?action=download-manifest&url=https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9.1.303-685_20250306012526.plist' class='bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors'>Install</a><a href='https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9.1.303-685_20250306012526.ipa' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBanking-9.1.303-684_20250304010649.ipa <b>9.1.303(684)</b> <i>(2025-03-04 01:06:49)</i></span><div class='space-x-2'><a href='itms-services://?action=download-manifest&url=https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9.1.303-684_20250304010649.plist' class='bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors'>Install</a><a href='https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9.1.303-684_20250304010649.ipa' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBanking-9.1.225-683_20250225214729.ipa <b>9.1.225(683)</b> <i>(2025-02-25 21:47:29)</i></span><div class='space-x-2'><a href='itms-services://?action=download-manifest&url=https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9.1.225-683_20250225214729.plist' class='bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors'>Install</a><a href='https://github.com/TRGMobilearth/releases/releases/download/masteriosbank/MobiBanking-9.1.225-683_20250225214729.ipa' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li></ul>            
-        </div>
-
-        <!-- iOS Ionic Builds Section -->
-        <div id="ios" class="bg-white rounded-lg shadow-md p-6 mb-8">
-            <h2 class="text-2xl font-semibold text-primary mb-4">MobiBanking Ionic iOS Builds</h2>
-
-            <!-- Added Alert/Notice -->
-            <div class="bg-blue-50 border-l-4 border-blue-400 p-4 mb-4">
-                <div class="flex">
-                    <div class="flex-shrink-0">
-                        <svg class="h-5 w-5 text-blue-400" viewBox="0 0 20 20" fill="currentColor">
-                            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd"/>
-                        </svg>
-                    </div>
-                    <div class="ml-3">
-                        <p class="text-sm text-blue-700">
-                            <strong>Important Installation Note:</strong> The "Install" button will only work if your device's UDID is included in the Ad-Hoc provisioning profile. There will be no immediate confirmation of installation - please check your device's home screen (springboard) to verify if the installation was successful.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <ul id='ionic-ios-list' class='space-y-2'><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBanking-7.5.314-17561_20250315070132.ipa <b>7.5.314(17561)</b> <i>(2025-03-15 07:01:32)</i></span><div class='space-x-2'><a href='itms-services://?action=download-manifest&url=https://github.com/TRGMobilearth/releases/releases/download/master_ionic_ios/MobiBanking-7.5.314-17561_20250315070132.plist' class='bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors'>Install</a><a href='https://github.com/TRGMobilearth/releases/releases/download/master_ionic_ios/MobiBanking-7.5.314-17561_20250315070132.ipa' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBanking-7.5.314-17560_20250315055624.ipa <b>7.5.314(17560)</b> <i>(2025-03-15 05:56:24)</i></span><div class='space-x-2'><a href='itms-services://?action=download-manifest&url=https://github.com/TRGMobilearth/releases/releases/download/master_ionic_ios/MobiBanking-7.5.314-17560_20250315055624.plist' class='bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors'>Install</a><a href='https://github.com/TRGMobilearth/releases/releases/download/master_ionic_ios/MobiBanking-7.5.314-17560_20250315055624.ipa' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBanking-7.5.314-17553_20250314191534.ipa <b>7.5.314(17553)</b> <i>(2025-03-14 19:15:34)</i></span><div class='space-x-2'><a href='itms-services://?action=download-manifest&url=https://github.com/TRGMobilearth/releases/releases/download/master_ionic_ios/MobiBanking-7.5.314-17553_20250314191534.plist' class='bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors'>Install</a><a href='https://github.com/TRGMobilearth/releases/releases/download/master_ionic_ios/MobiBanking-7.5.314-17553_20250314191534.ipa' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li><li class='flex justify-between items-center p-3 bg-gray-50 rounded-lg'><span class='text-gray-700'>MobiBanking-7-5-313-17549_20250314161818.ipa <b>7.5.313(17549)</b> <i>(2025-03-14 16:18:18)</i></span><div class='space-x-2'><a href='itms-services://?action=download-manifest&url=https://github.com/TRGMobilearth/releases/releases/download/master_ionic_ios/MobiBanking-7-5-313-17549_20250314161818.plist' class='bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition-colors'>Install</a><a href='https://github.com/TRGMobilearth/releases/releases/download/master_ionic_ios/MobiBanking-7-5-313-17549_20250314161818.ipa' class='bg-primary text-white px-4 py-2 rounded-lg hover:bg-primary-dark transition-colors' download>Download</a></div></li></ul>            
-        </div>
+<body class="bg-gray-100 text-center flex items-center justify-center h-screen">
+    <div>
+        <h1 class="text-2xl font-bold mb-4">Redirecting...</h1>
+        <p class="text-lg">If you are not redirected automatically, follow this <a href="/releases/live" class="text-blue-500">link to the live page</a>.</p>
     </div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

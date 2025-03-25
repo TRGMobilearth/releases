@@ -66,10 +66,19 @@
           "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
+          "name": "omni_android_maui",
+          "projectType": "AOS",
+          "fileRegexp": "^com.mobilearth.omni-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
           "name": "omni_aos_uat",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
+        {
+          "name": "omni_ios_maui",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"        },
         {
           "name": "omni_ios_uat",
           "projectType": "IOS",

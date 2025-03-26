@@ -27,3 +27,14 @@
         color: #1797d6;
     }
 }
+
+
+.heritage {
+    .bg-primary {
+        background-color: #233A74;
+    }
+
+    .text-primary {
+        color: #233A74;
+    }
+}

@@ -28,7 +28,6 @@
     }
 }
 
-
 .heritage {
     .bg-primary {
         background-color: #233A74;
@@ -36,5 +35,15 @@
 
     .text-primary {
         color: #233A74;
+    }
+}
+
+.bom {
+    .bg-primary {
+        background-color: #279E9A;
+    }
+
+    .text-primary {
+        color: #279E9A;
     }
 }

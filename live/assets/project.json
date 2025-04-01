@@ -136,5 +136,32 @@
         }
       ]
     }
+	{
+      "name": "bom",
+      "tagTypes": [
+        {
+          "name": "bomdroidbank-qa",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "bomdroidsbank-prod",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "bomiosbank-qa",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
+          "externalLink": "https://testflight.apple.com/join/CDJ3OVH0"
+        },
+        {
+          "name": "bomiosbank-prod",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
+          "externalLink": "https://testflight.apple.com/join/OzINOAFR"
+        }
+      ]
+    },
   ]
 }

@@ -47,3 +47,14 @@
         color: #279E9A;
     }
 }
+
+.grenada {
+    .bg-primary
+    {
+        background-color: #838600;
+    }
+
+    .text-primary {
+        color: #838600;
+    }
+}

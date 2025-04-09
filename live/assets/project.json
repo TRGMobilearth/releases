@@ -162,6 +162,33 @@
           "externalLink": "https://testflight.apple.com/join/OzINOAFR"
         }
       ]
+    },
+    {
+      "name": "grenada",
+      "tagTypes": [
+        {
+          "name": "grenadadroidbank-qa",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "grenadadroidsbank-prod",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "grenadaiosbank-qa",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
+          "externalLink": "https://testflight.apple.com/join/tynNC84p"
+        },
+        {
+          "name": "grenadaiosbank-prod",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
+          "externalLink": "https://testflight.apple.com/join/Ec7j5Kx4"
+        }
+      ]
     }
   ]
 }

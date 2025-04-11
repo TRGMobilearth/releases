@@ -49,12 +49,21 @@
 }
 
 .grenada {
-    .bg-primary
-    {
+    .bg-primary {
         background-color: #838600;
     }
 
     .text-primary {
         color: #838600;
+    }
+}
+
+.nbd {
+    .bg-primary {
+        background-color: #006f53;
+    }
+
+    .text-primary {
+        color: #006f53;
     }
 }

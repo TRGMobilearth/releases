@@ -67,3 +67,13 @@
         color: #006f53;
     }
 }
+
+.svcb {
+    .bg-primary {
+        background-color: #1797D6;
+    }
+
+    .text-primary {
+        color: #1797D6;
+    }
+}

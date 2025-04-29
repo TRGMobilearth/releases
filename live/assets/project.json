@@ -10,7 +10,7 @@
         },
         {
           "name": "master",
-          "projectType": "UWP",
+          "projectType": "WIN",
           "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
@@ -67,7 +67,7 @@
       "tagTypes": [
         {
           "name": "omni",
-          "projectType": "UWP",
+          "projectType": "WIN",
           "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {

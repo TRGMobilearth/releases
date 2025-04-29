@@ -6,7 +6,7 @@
 	{
           "name": "master-mb-avalonia",
           "projectType": "WIN",
-          "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+.\\d+)\\.*"
+          "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
         },
         {
           "name": "master",

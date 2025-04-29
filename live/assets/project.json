@@ -3,6 +3,11 @@
     {
       "name": "dev",
       "tagTypes": [
+	{
+          "name": "master-mb-avalonia",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+.\\d+)\\.*"
+        },
         {
           "name": "master",
           "projectType": "UWP",

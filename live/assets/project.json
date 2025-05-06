@@ -3,7 +3,7 @@
     {
       "name": "dev",
       "tagTypes": [
-	{
+        {
           "name": "master-mb-avalonia",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
@@ -141,7 +141,7 @@
         }
       ]
     },
-	{
+    {
       "name": "bom",
       "tagTypes": [
         {
@@ -246,6 +246,33 @@
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/NZlnOCYr"
+        }
+      ]
+    },
+    {
+      "name": "bosvg",
+      "tagTypes": [
+        {
+          "name": "bosvgdroidbank-qa",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "bosvgdroidsbank-prod",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "bosvgiosbank-qa",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
+          "externalLink": "https://testflight.apple.com/join/VkmmGerR"
+        },
+        {
+          "name": "bosvgiosbank-prod",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
+          "externalLink": "https://testflight.apple.com/join/aQstFXfI"
         }
       ]
     }

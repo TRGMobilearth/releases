@@ -77,3 +77,14 @@
         color: #1797D6;
     }
 }
+
+.bosvg {
+    .bg-primary
+    {
+        background-color: #6D9D4E;
+    }
+
+    .text-primary {
+        color: #6D9D4E;
+    }
+}

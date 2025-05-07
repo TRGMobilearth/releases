@@ -110,3 +110,14 @@
         color: #073975;
     }
 }
+
+.vcb {
+    .bg-primary
+    {
+        background-color: #1B7DC1;
+    }
+
+    .text-primary {
+        color: #1B7DC1;
+    }
+}

@@ -99,3 +99,14 @@
         color: #073975;
     }
 }
+
+.bosl {
+    .bg-primary
+    {
+        background-color: #073975;
+    }
+
+    .text-primary {
+        color: #073975;
+    }
+}

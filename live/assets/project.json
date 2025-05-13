@@ -356,6 +356,33 @@
           "externalLink": "https://testflight.apple.com/join/356rHDou"
         }
       ]
+    },
+    {
+      "name": "bon",
+      "tagTypes": [
+        {
+          "name": "bondroidbank-qa",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "bondroidsbank-prod",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "boniosbank-qa",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
+          "externalLink": "https://testflight.apple.com/join/TipbxDcd"
+        },
+        {
+          "name": "boniosbank-prod",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
+          "externalLink": "https://testflight.apple.com/join/0WB0N8pc"
+        }
+      ]
     }
   ]
 }

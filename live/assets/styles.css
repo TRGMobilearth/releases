@@ -121,3 +121,14 @@
         color: #1B7DC1;
     }
 }
+
+.bon {
+    .bg-primary
+    {
+        background-color: #01703D;
+    }
+
+    .text-primary {
+        color: #01703D;
+    }
+}

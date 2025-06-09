@@ -318,6 +318,11 @@
       "name": "bosl",
       "tagTypes": [
         {
+          "name": "boslmobibranch-qa",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
+        },
+        {
           "name": "bosldroidbank-qa",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"

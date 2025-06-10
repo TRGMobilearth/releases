@@ -426,6 +426,11 @@
           "externalLink": "https://testflight.apple.com/join/hNP9Nn2g"
         },
         {
+          "name": "fnbbranch-prod",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
           "name": "fnbsvdroidbank-qa",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
@@ -446,6 +451,11 @@
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/AUVl8Gmi"
+        },
+	{
+          "name": "fnbsvbranch-prod",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         }
       ]
     }

@@ -142,3 +142,13 @@
         color: #009CD6;
     }
 }
+
+.skna {
+    .bg-primary {
+        background-color: #00563f;
+    }
+
+    .text-primary {
+        color: #00563f;
+    }
+}

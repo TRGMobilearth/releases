@@ -73,7 +73,7 @@
 	{
           "name": "omni-mb-avalonia",
           "projectType": "WIN",
-          "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
+          "fileRegexp": "^MobiBranch.Omni_(\\d+.\\d+.\\d+).(\\d+)\\.*"
         },
         {
           "name": "omni_android_maui",

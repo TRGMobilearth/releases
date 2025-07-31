@@ -8,6 +8,11 @@
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch.Master_(\\d+.\\d+.\\d+).(\\d+)\\.*"
         },
+	{
+	  "name": "mb-droid-avalonia",
+          "projectType": "AOS",
+          "fileRegexp": "^com.mobilearth.mobibanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+	},
         {
           "name": "master",
           "projectType": "WIN",

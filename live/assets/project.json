@@ -8,11 +8,16 @@
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch.Master_(\\d+.\\d+.\\d+).(\\d+)\\.*"
         },
-	{
-	  "name": "mb-droid-avalonia",
+		{
+	 	  "name": "mb-droid-avalonia-omni",
+          "projectType": "AOS",
+          "fileRegexp": "^com.mobilearth.mobibranch.omni-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+		},		  
+		{
+	  	  "name": "mb-droid-avalonia",
           "projectType": "AOS",
           "fileRegexp": "^com.mobilearth.mobibanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-	},
+	    },
         {
           "name": "master",
           "projectType": "WIN",
@@ -525,3 +530,4 @@
     }
   ]
 }
+

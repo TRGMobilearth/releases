@@ -7,12 +7,7 @@
           "name": "master-mb-avalonia",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch.Master_(\\d+.\\d+.\\d+).(\\d+)\\.*"
-        },
-		{
-	 	  "name": "mb-droid-avalonia-omni",
-          "projectType": "AOS",
-          "fileRegexp": "^com.mobilearth.mobibranch.omni-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-		},		  
+        },	  
 		{
 	  	  "name": "mb-droid-avalonia",
           "projectType": "AOS",
@@ -80,11 +75,16 @@
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
-	{
+	    {
           "name": "omni-mb-avalonia",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch.Omni_(\\d+.\\d+.\\d+).(\\d+)\\.*"
-        },
+        },		  
+		{
+	 	  "name": "mb-droid-avalonia-omni",
+          "projectType": "AOS",
+          "fileRegexp": "^com.mobilearth.mobibranch.omni-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+		},	
         {
           "name": "omni_android_maui",
           "projectType": "AOS",
@@ -530,4 +530,5 @@
     }
   ]
 }
+
 

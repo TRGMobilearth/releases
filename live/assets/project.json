@@ -337,6 +337,11 @@
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
         },
+		{
+          "name": "boslbranchmaui-prod",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+).(\\d+)\\.*"
+        },
         {
           "name": "bosldroidbank-qa",
           "projectType": "AOS",

@@ -7,12 +7,12 @@
           "name": "master-mb-avalonia",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch.Master_(\\d+.\\d+.\\d+).(\\d+)\\.*"
-        },	  
-		{
-	  	  "name": "mb-droid-avalonia",
+        },
+        {
+          "name": "mb-droid-avalonia",
           "projectType": "AOS",
           "fileRegexp": "^com.mobilearth.mobibanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-	    },
+        },
         {
           "name": "master",
           "projectType": "WIN",
@@ -65,31 +65,41 @@
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/R8mo4xvF"
         },
-		{
+        {
           "name": "ecabmobibranch-qa",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
+        },
+        {
+          "name": "ecab_ionic_aos_qa",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "ecab_ionic_ios_qa",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         }
       ]
     },
     {
       "name": "omni",
-      "tagTypes": [	
+      "tagTypes": [
         {
           "name": "omni",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
-	    {
+        {
           "name": "omni-mb-avalonia",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch.Omni_(\\d+.\\d+.\\d+).(\\d+)\\.*"
-        },		  
-		{
-	 	  "name": "mb-droid-avalonia-omni",
+        },
+        {
+          "name": "mb-droid-avalonia-omni",
           "projectType": "AOS",
           "fileRegexp": "^com.mobilearth.mobibranch.omni-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-		},	
+        },
         {
           "name": "omni_android_maui",
           "projectType": "AOS",
@@ -108,7 +118,7 @@
       ]
     },
     {
-      "name": "heritage",
+      "name": "heritage-dom",
       "tagTypes": [
         {
           "name": "heritagedomdroidbank-qa",
@@ -132,11 +142,26 @@
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/jbjBaM7d"
         },
-		{
+        {
           "name": "heritagedommobibranch-qa",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
         },
+        {
+          "name": "heritage_dom_ionic_aos_qa",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "heritage_dom_ionic_ios_qa",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        }
+      ]
+    },
+    {
+      "name": "heritage-int",
+      "tagTypes": [
         {
           "name": "heritageintdroidbank-qa",
           "projectType": "AOS",
@@ -159,10 +184,20 @@
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/nLDoueMD"
         },
-		{
+        {
           "name": "heritageintmobibranch-qa",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
+        },
+        {
+          "name": "heritage_int_ionic_aos_qa",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "heritage_int_ionic_ios_qa",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         }
       ]
     },
@@ -228,7 +263,7 @@
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
-		{
+        {
           "name": "nbddldroidbank-qa",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
@@ -347,7 +382,7 @@
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
         },
-		{
+        {
           "name": "boslbranchmaui-prod",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+).(\\d+)\\.*"
@@ -482,7 +517,7 @@
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/AUVl8Gmi"
         },
-	{
+        {
           "name": "fnbsvbranch-prod",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
@@ -545,5 +580,3 @@
     }
   ]
 }
-
-

@@ -64,6 +64,11 @@
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/R8mo4xvF"
+        },
+		{
+          "name": "ecabmobibranch-qa",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
         }
       ]
     },
@@ -127,6 +132,11 @@
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/jbjBaM7d"
         },
+		{
+          "name": "heritagedommobibranch-qa",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
+        },
         {
           "name": "heritageintdroidbank-qa",
           "projectType": "AOS",
@@ -148,6 +158,11 @@
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/nLDoueMD"
+        },
+		{
+          "name": "heritageintmobibranch-qa",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
         }
       ]
     },

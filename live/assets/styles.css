@@ -28,13 +28,23 @@
     }
 }
 
-.heritage {
+.heritage-int {
     .bg-primary {
         background-color: #233A74;
     }
 
     .text-primary {
         color: #233A74;
+    }
+}
+
+.heritage-dom {
+    .bg-primary {
+        background-color: #233a0d;
+    }
+
+    .text-primary {
+        color: #233a0d;
     }
 }
 
@@ -161,4 +171,5 @@
     .text-primary {
         color: #233A74;
     }
+
 }

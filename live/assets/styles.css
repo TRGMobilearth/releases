@@ -8,6 +8,16 @@
     }
 }
 
+.canuck {
+        .bg-primary {
+        background-color: #ded278;
+    }
+
+    .text-primary {
+        color: #ded278;
+    }
+}
+
 .ecab {
     .bg-primary {
         background-color: #a16e11;

@@ -136,28 +136,6 @@
       "name": "heritage-dom",
       "tagTypes": [
         {
-          "name": "heritagedomdroidbank-qa",
-          "projectType": "AOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        },
-        {
-          "name": "heritagedomdroidsbank-prod",
-          "projectType": "AOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        },
-        {
-          "name": "heritagedomiosbank-qa",
-          "projectType": "IOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
-          "externalLink": "https://testflight.apple.com/join/O0HWD8eq"
-        },
-        {
-          "name": "heritagedomiosbank-prod",
-          "projectType": "IOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
-          "externalLink": "https://testflight.apple.com/join/jbjBaM7d"
-        },
-        {
           "name": "heritagedommobibranch-qa",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
@@ -177,28 +155,6 @@
     {
       "name": "heritage-int",
       "tagTypes": [
-        {
-          "name": "heritageintdroidbank-qa",
-          "projectType": "AOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        },
-        {
-          "name": "heritageintdroidsbank-prod",
-          "projectType": "AOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        },
-        {
-          "name": "heritageintiosbank-qa",
-          "projectType": "IOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
-          "externalLink": "https://testflight.apple.com/join/z2lnCRY3"
-        },
-        {
-          "name": "heritageintiosbank-prod",
-          "projectType": "IOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
-          "externalLink": "https://testflight.apple.com/join/nLDoueMD"
-        },
         {
           "name": "heritageintmobibranch-qa",
           "projectType": "WIN",

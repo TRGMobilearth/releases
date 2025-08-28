@@ -270,6 +270,11 @@
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/NzKGXThE"
+        },
+        {
+          "name": "nbdmobibranch-qa",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
         }
       ]
     },

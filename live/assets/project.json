@@ -56,6 +56,21 @@
       ]
     },
     {
+      "name": "dtone",
+      "tagTypes": [
+        {
+          "name": "me_topups_dt_win",
+          "projectType": "WIN",
+          "fileRegexp": "^ME TopUps_DT_(\\d+.\\d+.\\d+).(\\d+)\\.*"
+        },
+        {
+          "name": "me_topups_dt_droid",
+          "projectType": "AOS",
+          "fileRegexp": "^com.mobilearth.mobibanking.topup_dt-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        }   
+      ]
+    },
+    {
       "name": "ecab",
       "tagTypes": [
         {
@@ -586,4 +601,5 @@
       ]
     }
   ]
+
 }

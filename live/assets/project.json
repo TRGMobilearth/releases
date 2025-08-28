@@ -149,6 +149,16 @@
           "name": "heritage_dom_ionic_ios_qa",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "heritage_dom_ionic_aos_prd",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "heritage_dom_ionic_ios_prd",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         }
       ]
     },
@@ -167,6 +177,16 @@
         },
         {
           "name": "heritage_int_ionic_ios_qa",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "heritage_int_ionic_aos_prd",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "heritage_int_ionic_ios_prd",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         }
@@ -230,34 +250,23 @@
       "name": "nbd",
       "tagTypes": [
         {
-          "name": "nbddroidbank-qa",
+          "name": "nbd_ionic_aos_qa",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "nbddldroidbank-qa",
-          "projectType": "AOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        },
-        {
-          "name": "nbddroidsbank-prod",
-          "projectType": "AOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        },
-        {
-          "name": "nbdiosbank-qa",
+          "name": "nbd_ionic_ios_qa",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
-          "externalLink": "https://testflight.apple.com/join/uJ4WIj9N"
+          "externalLink": "https://testflight.apple.com/join/NzKGXThE"
         },
         {
-          "name": "nbddliosbank-qa",
-          "projectType": "IOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
-          "externalLink": "https://testflight.apple.com/join/T8nRHMJZ"
+          "name": "nbd_ionic_aos_prd",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "nbdiosbank-prod",
+          "name": "nbd_ionic_ios_prd",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/NzKGXThE"
@@ -315,6 +324,28 @@
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/aQstFXfI"
+        },
+        {
+          "name": "bosvg_ionic_aos_qa",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "bosvg_ionic_ios_qa",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
+          "externalLink": "https://testflight.apple.com/join/VkmmGerR"
+        },
+        {
+          "name": "bosvg_ionic_aos_prd",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "bosvg_ionic_ios_prd",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
+          "externalLink": "https://testflight.apple.com/join/VkmmGerR"
         }
       ]
     },

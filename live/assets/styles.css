@@ -8,6 +8,16 @@
     }
 }
 
+.dtone {
+    .bg-primary {
+        background-color: #512BD4;
+    }
+
+    .text-primary {
+        color: #512BD4;
+    }
+}
+
 .canuck {
         .bg-primary {
         background-color: #ded278;
@@ -183,3 +193,4 @@
     }
 
 }
+

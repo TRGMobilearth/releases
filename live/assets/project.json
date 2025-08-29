@@ -137,15 +137,10 @@
           "fileRegexp": "^com.mobilearth.omni-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "omni_ionic_aos_qa",
+          "name": "omni_ionic_aos",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
-        {
-          "name": "omni_ios_maui",
-          "projectType": "IOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        }
       ]
     },
     {

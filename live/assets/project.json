@@ -291,6 +291,11 @@
           "name": "nbdmobibranch-qa",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
+        },
+        {
+          "name": "nbddlmobibranch-qa",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
         }
       ]
     },

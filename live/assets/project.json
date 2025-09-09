@@ -239,26 +239,26 @@
       "name": "grenada",
       "tagTypes": [
         {
-          "name": "grenadadroidbank-qa",
+          "name": "grenada_ionic_aos_qa",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "grenadadroidsbank-prod",
+          "name": "grenada_ionic_ios_qa",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
+          "externalLink": "https://testflight.apple.com/join/cwwJUdY0"
+        },
+        {
+          "name": "grenada_ionic_aos_prd",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "grenadaiosbank-qa",
+          "name": "grenada_ionic_ios_prd",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
-          "externalLink": "https://testflight.apple.com/join/tynNC84p"
-        },
-        {
-          "name": "grenadaiosbank-prod",
-          "projectType": "IOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
-          "externalLink": "https://testflight.apple.com/join/Ec7j5Kx4"
+          "externalLink": "https://testflight.apple.com/join/RC0Qki1Z"
         }
       ]
     },
@@ -443,23 +443,23 @@
       "name": "vcb",
       "tagTypes": [
         {
-          "name": "vcbdroidbank-qa",
+          "name": "vcb_ionic_aos_qa",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "vcbdroidbank-prod",
-          "projectType": "AOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        },
-        {
-          "name": "vcbiosbank-qa",
+          "name": "vcb_ionic_ios_qa",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/JYjqPAvm"
         },
         {
-          "name": "vcbiosbank-prod",
+          "name": "vcb_ionic_aos_prd",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "vcb_ionic_ios_prd",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/356rHDou"
@@ -470,23 +470,23 @@
       "name": "bon",
       "tagTypes": [
         {
-          "name": "bondroidbank-qa",
+          "name": "bon_ionic_aos_qa",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "bondroidsbank-prod",
-          "projectType": "AOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        },
-        {
-          "name": "boniosbank-qa",
+          "name": "bon_ionic_ios_qa",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/TipbxDcd"
         },
         {
-          "name": "boniosbank-prod",
+          "name": "bon_ionic_aos_prd",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "bon_ionic_ios_prd",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/0WB0N8pc"
@@ -556,23 +556,23 @@
       "name": "skna",
       "tagTypes": [
         {
-          "name": "sknadroidbank-qa",
+          "name": "skna_ionic_aos_qa",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "sknadroidsbank-prod",
-          "projectType": "AOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        },
-        {
-          "name": "sknaiosbank-qa",
+          "name": "skna_ionic_ios_qa",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/cwwJUdY0"
         },
         {
-          "name": "sknaiosbank-prod",
+          "name": "skna_ionic_aos_prd",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "skna_ionic_ios_prd",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/RC0Qki1Z"

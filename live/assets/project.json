@@ -509,26 +509,26 @@
       ]
     },
     {
-      "name": "fnb",
+      "name": "fnb-sl",
       "tagTypes": [
         {
-          "name": "fnbdroidbank-qa",
+          "name": "fnb_sl_ionic_aos_qa",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "fnbdroidsbank-prod",
+          "name": "fnb_sl_ionic_aos_prd",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "fnbiosbank-qa",
+          "name": "fnb_sl_ionic_ios_qa",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/k20Zlkys"
         },
         {
-          "name": "fnbiosbank-prod",
+          "name": "fnb_sl_ionic_ios_prd",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/hNP9Nn2g"
@@ -537,25 +537,31 @@
           "name": "fnbbranch-prod",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        },
+        }
+      ]
+    },
+    {
+      "name": "fnb-sv",
+      "tagTypes": [
+
         {
-          "name": "fnbsvdroidbank-qa",
+          "name": "fnb_sv_ionic_aos_qa",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "fnbsvdroidsbank-prod",
+          "name": "fnb_sv_ionic_aos_prd",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "fnbsviosbank-qa",
+          "name": "fnb_sv_ionic_ios_qa",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/N0XC8MbH"
         },
         {
-          "name": "fnbsviosbank-prod",
+          "name": "fnb_sv_ionic_ios_prd",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/AUVl8Gmi"

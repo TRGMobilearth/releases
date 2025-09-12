@@ -163,13 +163,23 @@
     }
 }
 
-.fnb {
+.fnb-sl {
     .bg-primary {
         background-color: #009CD6;
     }
 
     .text-primary {
         color: #009CD6;
+    }
+}
+
+.fnb-sv {
+    .bg-primary {
+        background-color: #34cd86;
+    }
+
+    .text-primary {
+        color: #34cd86;
     }
 }
 

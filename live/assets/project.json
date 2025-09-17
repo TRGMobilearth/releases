@@ -74,28 +74,6 @@
       "name": "ecab",
       "tagTypes": [
         {
-          "name": "ecabdroidbank-qa",
-          "projectType": "AOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        },
-        {
-          "name": "ecabdroidsbank-prod",
-          "projectType": "AOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        },
-        {
-          "name": "ecabiosbank-qa",
-          "projectType": "IOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
-          "externalLink": "https://testflight.apple.com/join/sg9ufOtt"
-        },
-        {
-          "name": "ecabiosbank-prod",
-          "projectType": "IOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
-          "externalLink": "https://testflight.apple.com/join/R8mo4xvF"
-        },
-        {
           "name": "ecabmobibranch-qa",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
@@ -239,6 +217,11 @@
       "name": "grenada",
       "tagTypes": [
         {
+          "name": "grenada-avalonia-qa",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
           "name": "grenada_ionic_aos_qa",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
@@ -259,17 +242,22 @@
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/RC0Qki1Z"
-        },
-        {
-          "name": "grenada-avalonia-qa",
-          "projectType": "WIN",
-          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         }
       ]
     },
     {
       "name": "nbd",
       "tagTypes": [
+        {
+          "name": "nbdmobibranch-qa",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
+        },
+        {
+          "name": "nbddlmobibranch-qa",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
+        },
         {
           "name": "nbd_ionic_aos_qa",
           "projectType": "AOS",
@@ -291,16 +279,6 @@
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/NzKGXThE"
-        },
-        {
-          "name": "nbdmobibranch-qa",
-          "projectType": "WIN",
-          "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
-        },
-        {
-          "name": "nbddlmobibranch-qa",
-          "projectType": "WIN",
-          "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
         }
       ]
     },
@@ -335,28 +313,6 @@
       "name": "bosvg",
       "tagTypes": [
         {
-          "name": "bosvgdroidbank-qa",
-          "projectType": "AOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        },
-        {
-          "name": "bosvgdroidsbank-prod",
-          "projectType": "AOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        },
-        {
-          "name": "bosvgiosbank-qa",
-          "projectType": "IOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
-          "externalLink": "https://testflight.apple.com/join/VkmmGerR"
-        },
-        {
-          "name": "bosvgiosbank-prod",
-          "projectType": "IOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
-          "externalLink": "https://testflight.apple.com/join/aQstFXfI"
-        },
-        {
           "name": "bosvg_ionic_aos_qa",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
@@ -376,13 +332,18 @@
           "name": "bosvg_ionic_ios_prd",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
-          "externalLink": "https://testflight.apple.com/join/VkmmGerR"
+          "externalLink": "https://testflight.apple.com/join/aQstFXfI"
         }
       ]
     },
     {
       "name": "acb",
       "tagTypes": [
+        {
+          "name": "acb-avalonia-qa",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
         {
           "name": "acbdroidbank-qa",
           "projectType": "AOS",
@@ -404,11 +365,6 @@
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/f9fvla3W"
-        },
-        {
-          "name": "acb-avalonia-qa",
-          "projectType": "WIN",
-          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         }
       ]
     },
@@ -453,6 +409,11 @@
       "name": "vcb",
       "tagTypes": [
         {
+          "name": "vcb-avalonia-qa",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
           "name": "vcb_ionic_aos_qa",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
@@ -473,17 +434,17 @@
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/356rHDou"
-        },
-        {
-          "name": "vcb-avalonia-qa",
-          "projectType": "WIN",
-          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         }
       ]
     },
     {
       "name": "bon",
       "tagTypes": [
+        {
+          "name": "bon-avalonia-qa",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
         {
           "name": "bon_ionic_aos_qa",
           "projectType": "AOS",
@@ -505,17 +466,17 @@
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/0WB0N8pc"
-        },
-        {
-          "name": "bon-avalonia-qa",
-          "projectType": "WIN",
-          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         }
       ]
     },
     {
       "name": "fnb-sl",
       "tagTypes": [
+        {
+          "name": "fnbbranch-prod",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
         {
           "name": "fnb_sl_ionic_aos_qa",
           "projectType": "AOS",
@@ -537,18 +498,17 @@
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/hNP9Nn2g"
-        },
-        {
-          "name": "fnbbranch-prod",
-          "projectType": "WIN",
-          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         }
       ]
     },
     {
       "name": "fnb-sv",
       "tagTypes": [
-
+        {
+          "name": "fnbsvbranch-prod",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
         {
           "name": "fnb_sv_ionic_aos_qa",
           "projectType": "AOS",
@@ -570,17 +530,17 @@
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/AUVl8Gmi"
-        },
-        {
-          "name": "fnbsvbranch-prod",
-          "projectType": "WIN",
-          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         }
       ]
     },
     {
       "name": "skna",
       "tagTypes": [
+        {
+          "name": "skna-avalonia-qa",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
         {
           "name": "skna_ionic_aos_qa",
           "projectType": "AOS",
@@ -602,11 +562,6 @@
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/RC0Qki1Z"
-        },
-        {
-          "name": "skna-avalonia-qa",
-          "projectType": "WIN",
-          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         }
       ]
     },
@@ -638,5 +593,4 @@
       ]
     }
   ]
-
 }

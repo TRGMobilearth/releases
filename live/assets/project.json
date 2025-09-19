@@ -230,7 +230,7 @@
           "name": "grenada_ionic_ios_qa",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
-          "externalLink": "https://testflight.apple.com/join/cwwJUdY0"
+          "externalLink": "https://testflight.apple.com/join/tynNC84p"
         },
         {
           "name": "grenada_ionic_aos_prd",
@@ -241,7 +241,7 @@
           "name": "grenada_ionic_ios_prd",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
-          "externalLink": "https://testflight.apple.com/join/RC0Qki1Z"
+          "externalLink": "https://testflight.apple.com/join/Ec7j5Kx4"
         }
       ]
     },

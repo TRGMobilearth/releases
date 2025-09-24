@@ -345,23 +345,23 @@
           "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "acbdroidbank-qa",
+          "name": "acb_ionic_aos_qa",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "acbdroidsbank-prod",
-          "projectType": "AOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        },
-        {
-          "name": "acbiosbank-qa",
+          "name": "acb_ionic_ios_qa",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/Da1lTgrK"
         },
         {
-          "name": "acbiosbank-prod",
+          "name": "acb_ionic_aos_prd",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "acb_ionic_ios_prd",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/f9fvla3W"

@@ -48,6 +48,16 @@
     }
 }
 
+.knight {
+       .bg-primary {
+        background-color: #801D35;
+    }
+
+    .text-primary {
+        color: #801D35;
+    } 
+}
+
 .heritage-int {
     .bg-primary {
         background-color: #233A74;

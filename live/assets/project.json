@@ -41,6 +41,21 @@
       ]
     },
     {
+      "name": "knight",
+      "tagTypes": [
+        {
+          "name": "knight_ionic_aos_canuck",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "knight_ionic_ios_canuck",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        }
+      ]
+    },
+    {
       "name": "canuck",
       "tagTypes": [
         {

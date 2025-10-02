@@ -328,6 +328,29 @@
       "name": "bosvg",
       "tagTypes": [
         {
+          "name": "bosvgdroidbank-qa",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "bosvgdroidsbank-prod",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "bosvgiosbank-qa",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
+          "externalLink": "https://testflight.apple.com/join/VkmmGerR"
+        },
+        {
+          "name": "bosvgiosbank-prod",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
+          "externalLink": "https://testflight.apple.com/join/aQstFXfI"
+        },
+
+        {
           "name": "bosvg_ionic_aos_qa",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"

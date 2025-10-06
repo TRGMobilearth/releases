@@ -304,7 +304,7 @@
           "name": "nbddldroidbank-qa",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        },
+        }
       ]
     },
     {
@@ -642,4 +642,5 @@
     }
   ]
 }
+
 

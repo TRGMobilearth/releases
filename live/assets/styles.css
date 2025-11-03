@@ -48,6 +48,16 @@
     }
 }
 
+.jet {
+       .bg-primary {
+        background-color: #303030;
+    }
+
+    .text-primary {
+        color: #303030;
+    } 
+}
+
 .knight {
        .bg-primary {
         background-color: #801D35;

@@ -142,6 +142,21 @@
       ]
     },
     {
+      "name": "jet",
+      "tagTypes": [
+        {
+          "name": "jet_ionic_aos",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "jet_ionic_ios",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        }
+      ]
+    },
+    {
       "name": "heritage-dom",
       "tagTypes": [
         {

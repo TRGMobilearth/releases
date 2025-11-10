@@ -1,1 +1,8 @@
-.mat-accordion .mat-expansion-panel-body,.mat-accordion .mat-expansion-panel-header{padding:5px 10px}
+.mat-accordion .mat-expansion-panel-body,
+.mat-accordion .mat-expansion-panel-header {
+  padding: 5px 10px 5px 10px;    
+}
+
+.mat-expansion-indicator::after {
+ border-color: black;
+}

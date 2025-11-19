@@ -93,6 +93,11 @@
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
         },
+		{
+          "name": "ecabmobibranch-prod",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
+        },
         {
           "name": "ecab_ionic_aos_qa",
           "projectType": "AOS",

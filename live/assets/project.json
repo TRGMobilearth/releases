@@ -387,6 +387,16 @@
     {
       "name": "bosvg",
       "tagTypes": [
+	    {
+          "name": "bosvg-avalonia-qa",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+		{
+          "name": "bosvg-avalonia-prod",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
         {
           "name": "bosvgdroidbank-qa",
           "projectType": "AOS",

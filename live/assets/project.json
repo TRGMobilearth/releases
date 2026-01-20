@@ -180,6 +180,11 @@
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
         },
+		{
+          "name": "heritagedommobibranch-prod",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
+        },
         {
           "name": "heritage_dom_ionic_aos_qa",
           "projectType": "AOS",
@@ -209,6 +214,11 @@
       "tagTypes": [
         {
           "name": "heritageintmobibranch-qa",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
+        },
+		{
+          "name": "heritageintmobibranch-prod",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch.Desktop_(\\d+.\\d+.\\d+).(\\d+)\\.*"
         },
@@ -707,6 +717,7 @@
     }
   ]
 }
+
 
 
 

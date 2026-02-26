@@ -576,7 +576,7 @@
       "name": "fnb-sl",
       "tagTypes": [
         {
-          "name": "fnbbranch-prod",
+          "name": "fnb-sl-avalonia-qa",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
@@ -608,7 +608,7 @@
       "name": "fnb-sv",
       "tagTypes": [
         {
-          "name": "fnbsvbranch-prod",
+          "name": "fnb-sv-avalonia-qa",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },

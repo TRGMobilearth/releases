@@ -124,12 +124,7 @@
     },
     {
       "name": "omni",
-      "tagTypes": [
-        {
-          "name": "omni",
-          "projectType": "WIN",
-          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        },
+      "tagTypes": [       
         {
           "name": "omni-mb-avalonia",
           "projectType": "WIN",
@@ -139,11 +134,6 @@
           "name": "mb-droid-avalonia-omni",
           "projectType": "AOS",
           "fileRegexp": "^com.mobilearth.mobibranch.omni-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        },
-        {
-          "name": "omni_android_maui",
-          "projectType": "AOS",
-          "fileRegexp": "^com.mobilearth.omni-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
           "name": "omni_ionic_aos",
@@ -702,6 +692,7 @@
     }
   ]
 }
+
 
 
 

@@ -281,6 +281,11 @@
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
+		{
+          "name": "grenada-avalonia-prod",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
         {
           "name": "grenada_ionic_aos_qa",
           "projectType": "AOS",

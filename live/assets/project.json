@@ -244,29 +244,29 @@
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
-		{
+		    {
           "name": "bom-avalonia-prod",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
-		{
-          "name": "bomdroidbank-qa",
+        {
+          "name": "bom_ionic_aos_qa",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "bomdroidsbank-prod",
-          "projectType": "AOS",
-          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
-        },
-        {
-          "name": "bomiosbank-qa",
+          "name": "bom_ionic_ios_qa",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/CDJ3OVH0"
         },
         {
-          "name": "bomiosbank-prod",
+          "name": "bom_ionic_aos_prd",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "bom_ionic_ios_prd",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/OzINOAFR"

@@ -543,6 +543,11 @@
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
+		{
+          "name": "bon-avalonia-prod",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
         {
           "name": "bon_ionic_aos_qa",
           "projectType": "AOS",

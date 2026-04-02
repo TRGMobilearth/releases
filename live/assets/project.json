@@ -572,6 +572,16 @@
         }
       ]
     },
+	{
+      "name": "fnb",
+      "tagTypes": [
+        {
+          "name": "fnb-avalonia-qa",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        }
+      ]
+    },
     {
       "name": "fnb-sl",
       "tagTypes": [

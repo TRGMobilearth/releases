@@ -182,7 +182,15 @@
         color: #01703D;
     }
 }
+.fnb {
+    .bg-primary {
+        background-color: #009CD6;
+    }
 
+    .text-primary {
+        color: #009CD6;
+    }
+}
 .fnb-sl {
     .bg-primary {
         background-color: #009CD6;

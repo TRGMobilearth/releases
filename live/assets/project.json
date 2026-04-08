@@ -590,6 +590,11 @@
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
+		{
+          "name": "fnb-sl-avalonia-prod",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
         {
           "name": "fnb_sl_ionic_aos_qa",
           "projectType": "AOS",
@@ -619,6 +624,11 @@
       "tagTypes": [
         {
           "name": "fnb-sv-avalonia-qa",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+		{
+          "name": "fnb-sv-avalonia-prod",
           "projectType": "WIN",
           "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },

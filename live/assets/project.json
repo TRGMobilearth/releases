@@ -719,7 +719,34 @@
           "externalLink": "https://testflight.apple.com/join/bSjJ8Wuk"
         }
       ]
-    }
+    },
+    {
+      "name": "nob",
+      "tagTypes": [
+        {
+          "name": "nob",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "nob",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
+          "externalLink": "https://testflight.apple.com/join/cwwJUdY0"
+        },
+        {
+          "name": "nob",
+          "projectType": "AOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
+        {
+          "name": "nob",
+          "projectType": "IOS",
+          "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
+          "externalLink": "https://testflight.apple.com/join/RC0Qki1Z"
+        }
+      ]
+    },
   ]
 }
 

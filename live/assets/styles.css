@@ -232,3 +232,15 @@
 
 }
 
+
+.nob {
+    .bg-primary {
+        background-color: #1ac742;
+    }
+
+    .text-primary {
+        color: #1ac742;
+    }
+
+}
+

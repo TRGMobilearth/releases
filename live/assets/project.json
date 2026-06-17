@@ -724,27 +724,28 @@
       "name": "nob",
       "tagTypes": [
         {
-          "name": "nob",
+          "name": "nob_ionic_aos_qa",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "nob",
+          "name": "nob_ionic_ios_qa",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/cwwJUdY0"
         },
         {
-          "name": "nob",
+          "name": "nob_ionic_aos_prd",
           "projectType": "AOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
         },
         {
-          "name": "nob",
+          "name": "nob_ionic_ios_prd",
           "projectType": "IOS",
           "fileRegexp": "^MobiBanking-(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*",
           "externalLink": "https://testflight.apple.com/join/RC0Qki1Z"
         }
+
       ]
     }
   ]

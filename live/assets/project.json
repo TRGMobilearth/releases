@@ -713,6 +713,11 @@
     {
       "name": "nob",
       "tagTypes": [
+		{
+          "name": "nob-avalonia-qa",
+          "projectType": "WIN",
+          "fileRegexp": "^MobiBranch_(\\d+.\\d+.\\d+)-(\\d+)_(\\d+)\\.*"
+        },
         {
           "name": "nob_ionic_aos_qa",
           "projectType": "AOS",
